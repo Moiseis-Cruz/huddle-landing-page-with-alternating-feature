@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+body {
+    max-width: 1440px;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: burlywood;
+}
+
+.container-hero-sec {
+    background: hsl(193, 100%, 96%) url(../images/bg-hero-desktop.svg) no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.container-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-content-hero {
+    width: 490px;
+    background-color: brown;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 37px;
+    font-weight: 600;
+    width: 450px;
+    background-color: antiquewhite;
+}
+
+.description {
+    font-size: 17px;
+    font-weight: 400;
+    background-color: aquamarine;
+}
+
+.btn-started {
+    background-color: chartreuse;
+    padding: 15px 50px;
+}
+
+.illustration-mockups {
+    width: 650px;
+
+}
+
+.illustration-mockups img {
+    width: 100%;
+}
