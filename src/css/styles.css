@@ -27,7 +27,6 @@ nav {
 
 .container-content-hero {
     width: 490px;
-    background-color: brown;
 }
 
 .title {
@@ -35,17 +34,19 @@ nav {
     font-size: 37px;
     font-weight: 600;
     width: 450px;
-    background-color: antiquewhite;
+    margin-bottom: 25px;
 }
 
 .description {
     font-size: 17px;
     font-weight: 400;
-    background-color: aquamarine;
+    margin-bottom: 30px;
 }
 
 .btn-started {
-    background-color: chartreuse;
+    background-color: var(--primary-color);
+    color: var(--primary-neutral);
+    border-radius: 50px;
     padding: 15px 50px;
 }
 
