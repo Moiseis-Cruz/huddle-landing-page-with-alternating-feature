@@ -74,3 +74,12 @@ nav {
 .illustration-mockups img {
     width: 100%;
 }
+
+.container {
+    padding: 130px 100px;
+    background-color: aqua;
+}
+
+.container .content {
+    background-color: blueviolet;
+}
