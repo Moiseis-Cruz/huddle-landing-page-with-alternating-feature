@@ -83,3 +83,7 @@ nav {
 .container .content {
     background-color: blueviolet;
 }
+
+.container img {
+    width: 410px;
+}
