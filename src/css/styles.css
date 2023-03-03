@@ -76,14 +76,29 @@ nav {
 }
 
 .container {
-    padding: 130px 100px;
+    /* padding: 130px 100px; */
+    margin: auto;
+    width: 1150px;
+    height: 460px;
     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .container .content {
+    width: 495px;
     background-color: blueviolet;
 }
 
+.container .content p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    background-color: blanchedalmond;
+}
+
 .container img {
-    width: 410px;
+    width: 380px;
 }
