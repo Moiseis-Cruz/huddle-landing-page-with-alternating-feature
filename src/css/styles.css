@@ -4,7 +4,9 @@ body {
     max-width: 1440px;
     min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
-    background-color: burlywood;
+    /* background-color: burlywood; */
+    /* background-color: var(--primary-neutral); */
+    background-color: #ffffff;
 }
 
 .container-hero-sec {
@@ -76,29 +78,32 @@ nav {
 }
 
 .container {
-    /* padding: 130px 100px; */
     margin: auto;
     width: 1150px;
     height: 460px;
-    background-color: aqua;
+    background-color: var(--primary-neutral);
+    border-radius: 20px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.12);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 20px;
 }
 
+.container:first-child {
+    margin-top: 150px;
+}
+
 .container .content {
-    width: 495px;
-    background-color: blueviolet;
+    width: 30.93rem;
 }
 
 .container .content p {
     font-size: 18px;
     font-weight: 400;
-    margin-top: 15px;
-    background-color: blanchedalmond;
+    margin-top: 1.125rem;
 }
 
 .container img {
-    width: 380px;
+    width: 23.75rem;
 }
