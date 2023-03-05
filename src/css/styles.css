@@ -120,3 +120,12 @@ nav {
 .container-content {
     background-color: darkgray;
 }
+
+footer {
+    background-color: var(--secundary-neutral);
+    color: var(--primary-neutral);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
