@@ -18,7 +18,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 50px 80px;
 }
 
 .logo {
@@ -41,6 +41,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 60px;
 }
 
 .container-content-hero {
@@ -65,7 +66,7 @@ nav {
     background-color: var(--primary-color);
     color: var(--primary-neutral);
     border-radius: 50px;
-    padding: 15px 50px;
+    padding: 15px 60px;
 }
 
 .illustration-mockups {
@@ -81,9 +82,9 @@ nav {
     margin: auto;
     width: 1150px;
     height: 460px;
-    background-color: var(--primary-neutral);
+    /* background-color: var(--primary-neutral); */
     border-radius: 20px;
-    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 3px 3px rgb(241, 241, 241);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -92,6 +93,14 @@ nav {
 
 .container:first-child {
     margin-top: 150px;
+}
+
+.container:nth-child(n+2) {
+    margin-top: 40px;
+}
+
+.container:last-child{
+    margin-bottom: 150px;
 }
 
 .container .content {
@@ -106,4 +115,8 @@ nav {
 
 .container img {
     width: 23.75rem;
+}
+
+.container-content {
+    background-color: darkgray;
 }
