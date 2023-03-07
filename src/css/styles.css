@@ -4,7 +4,7 @@ body {
     max-width: 1440px;
     min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
-    background-color: #ffffff;
+    background-color: #f8f6f6;
 }
 
 .container-hero-sec {
@@ -69,7 +69,6 @@ nav {
 
 .illustration-mockups {
     width: 650px;
-
 }
 
 .illustration-mockups img {
@@ -129,6 +128,7 @@ nav {
     justify-content: center;
     border-radius: 15px;
     gap: 40px;
+    box-shadow: 0 0 10px 1px var(--secundary-neutral);
 }
 
 .container-content h2 {
