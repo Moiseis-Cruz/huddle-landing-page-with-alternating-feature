@@ -4,8 +4,6 @@ body {
     max-width: 1440px;
     min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
-    /* background-color: burlywood; */
-    /* background-color: var(--primary-neutral); */
     background-color: #ffffff;
 }
 
@@ -118,7 +116,7 @@ nav {
 }
 
 .container-content {
-    background-color: darkgray;
+    background-color: #ffffff;
     position: relative;
     width: 760px;
     height: 270px;
