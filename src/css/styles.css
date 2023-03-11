@@ -117,6 +117,7 @@ nav {
     font-size: 18px;
     font-weight: 400;
     margin-top: 1.125rem;
+    color: var(--tertiary-neutral);
 }
 
 .container img {
@@ -169,4 +170,20 @@ footer {
     justify-content: center;
     align-items: center;
     color: var(--primary-neutral);
+}
+
+footer .box {
+    /* background-color: darkgray; */
+    width: 300px;
+}
+
+footer li {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+footer .box p {
+    font-size: 12px;
+    /* background-color: darkolivegreen; */
 }
