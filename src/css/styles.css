@@ -173,17 +173,5 @@ footer {
 }
 
 footer .box {
-    /* background-color: darkgray; */
     width: 300px;
-}
-
-footer .footer-container ul li {
-    display: flex;
-    gap: 25px;
-    margin-bottom: 20px;
-}
-
-footer .box p {
-    font-size: 12px;
-    /* background-color: darkolivegreen; */
 }
