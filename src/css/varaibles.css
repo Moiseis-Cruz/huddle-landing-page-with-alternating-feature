@@ -3,4 +3,6 @@
     --primary-neutral:  hsl(193, 100%, 96%);
     --secundary-neutral: hsl(192, 100%, 9%);
     --tertiary-neutral: hsl(208, 11%, 55%);
+
+    --active-color: hsl(322, 100%, 80%);
 }
