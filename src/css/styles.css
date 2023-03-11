@@ -177,7 +177,7 @@ footer .box {
     width: 300px;
 }
 
-footer li {
+footer .footer-container ul li {
     display: flex;
     gap: 25px;
     margin-bottom: 20px;
