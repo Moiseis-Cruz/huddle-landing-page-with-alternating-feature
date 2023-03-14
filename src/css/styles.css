@@ -176,6 +176,14 @@ footer .container-externo {
     justify-content: flex-end;
 }
 
+footer .container-externo .svg-logo {
+    fill: #ffffff;
+    width: 300px;
+    height: auto;
+    margin-left: 6%;
+    margin-bottom: 20px;
+}
+
 footer .footer-image {
     width: 300px;
     height: auto;
