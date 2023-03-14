@@ -185,10 +185,12 @@ footer .container-externo .svg-logo {
 }
 
 footer .footer-image {
-    width: 300px;
+    width: 150px;
+    /* background-color: burlywood; */
     height: auto;
     margin-left: 6%;
     margin-bottom: 20px;
+    filter: grayscale(1) invert(1);
 }
 
 footer .footer-container {
@@ -214,6 +216,18 @@ footer .box {
 .box ul li {
     display: flex;
     gap: 15px;
+}
+
+.box li a i {
+    color: var(--primary-neutral);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-neutral);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
 }
 
 footer .footer-description {
