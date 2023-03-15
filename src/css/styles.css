@@ -186,7 +186,6 @@ footer .container-externo .svg-logo {
 
 footer .footer-image {
     width: 150px;
-    /* background-color: burlywood; */
     height: auto;
     margin-left: 6%;
     margin-bottom: 20px;
@@ -195,12 +194,13 @@ footer .footer-image {
 
 footer .footer-container {
     display: flex;
-    gap: 10px;
+    width: 100%;
+    justify-content: space-around;
     margin: 0 auto;
 }
 
-footer .box {
-    width: 290px;
+footer .box:first-child {
+    width: 370px;
 }
 
 .center {
@@ -210,12 +210,16 @@ footer .box {
 .box ul {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 .box ul li {
     display: flex;
     gap: 15px;
+}
+
+.box li a:hover {
+    text-decoration: underline;
 }
 
 .box li a i {
@@ -230,6 +234,15 @@ footer .box {
     font-size: 16px;
 }
 
+.box li a i:hover {
+    text-decoration: none;
+}
+
+.box li a i:active {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
 footer .footer-description {
     font-size: 14px;
 }
@@ -237,4 +250,5 @@ footer .footer-description {
 .container-externo .copy {
     margin-right: 6%;
     margin-left: auto;
+    margin-top: 10px;
 }
