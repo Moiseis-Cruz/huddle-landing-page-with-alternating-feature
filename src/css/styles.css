@@ -168,7 +168,7 @@ footer {
     color: var(--primary-neutral);
 }
 
-footer .container-externo {
+/* footer .container-externo {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -251,4 +251,4 @@ footer .footer-description {
     margin-right: 6%;
     margin-left: auto;
     margin-top: 10px;
-}
+} */
