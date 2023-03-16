@@ -254,23 +254,33 @@ footer .footer-description {
     margin-left: auto;
     margin-top: 10px;
 } */
+footer .footer-image {
+    width: 220px;
+    height: auto;
+    filter: grayscale(1) invert(1);
+}
 
 .container-footer {
-    background-color: cornflowerblue;
-    width: 80%;
+    /* background-color: cornflowerblue; */
+    width: 1100px;
     margin-top: 180px;
 }
 
 .content-footer {
-    background-color: darkgray;
+    /* background-color: darkgray; */
+    margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    gap: 140px;
+    grid-template-columns: 340px repeat(3, 1fr);
 }
 
-footer .footer-image {
-    width: 150px;
-    height: auto;
-    /* margin-left: 6%; */
-    /* margin-bottom: 20px; */
-    filter: grayscale(1) invert(1);
+.content-footer .box ul li {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+    /* background-color: burlywood; */
+}
+
+footer .footer-description {
+    font-size: 15px;
 }
