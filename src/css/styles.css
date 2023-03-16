@@ -261,13 +261,11 @@ footer .footer-image {
 }
 
 .container-footer {
-    /* background-color: cornflowerblue; */
     width: 1100px;
     margin-top: 180px;
 }
 
 .content-footer {
-    /* background-color: darkgray; */
     margin-top: 30px;
     display: grid;
     gap: 140px;
@@ -278,9 +276,29 @@ footer .footer-image {
     display: flex;
     gap: 25px;
     margin-bottom: 20px;
-    /* background-color: burlywood; */
+}
+
+.content-footer .box ul li:last-child {
+    gap: 10px;
 }
 
 footer .footer-description {
     font-size: 15px;
+}
+
+.box li a i {
+    color: var(--primary-neutral);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-neutral);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.box li a i:active {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
