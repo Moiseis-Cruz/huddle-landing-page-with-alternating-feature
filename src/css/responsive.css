@@ -1,0 +1,23 @@
+@media (max-width: 375px) {
+    body {
+        width: 375px;
+    }
+
+    .container-hero-sec {
+        background: hsl(193, 100%, 96%) url(../images/bg-hero-mobile.svg) no-repeat;
+    }
+
+    nav {
+        padding: 10px 30px;
+    }
+
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+
+    .btn-in-free {
+        padding: 5px 30px;
+        font-size: 10px;
+    }
+}
