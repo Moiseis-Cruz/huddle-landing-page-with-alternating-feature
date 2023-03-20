@@ -1,6 +1,7 @@
 @media (max-width: 375px) {
     body {
         width: 375px;
+        background-color: cadetblue;
     }
 
     .container-hero-sec {
@@ -19,5 +20,94 @@
     .btn-in-free {
         padding: 5px 30px;
         font-size: 10px;
+    }
+
+    .container-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-content-hero {
+        width: 375px;
+    }
+
+    .title {
+        font-size: 25px;
+        width: 320px;
+        margin: 80px auto 0;
+    }
+
+    .description {
+        margin: 20px auto 0;
+        width: 320px;
+    }
+
+    .btn-started {
+        padding: 12px 60px;
+        font-weight: 700;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    .illustration-mockups {
+        width: 375px;
+    }
+
+
+
+    .container {
+        width: 330px;
+        min-height: 460px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        background-color: cornsilk;
+        text-align: center;
+    }
+
+    .container .content {
+        width: 320px;
+    }
+
+    .container .content h2 {
+        background-color: lightblue;
+        width: 320px;
+        font-size: 22px;
+    }
+
+    .container .content p {
+        font-size: 14px;
+        margin: 1.125rem auto 0;
+        width: 275px;
+        background-color: burlywood;
+
+    }
+    
+    .container img {
+        width: 320px;
+        background-color: gray;
+    }
+
+    .container-content {
+        width: 350px;
+        height: 160px;
+        text-align: center;
+        bottom: -90px;
+        margin: 0 auto;
+        border-radius: 15px;
+        gap: 40px;
+        box-shadow: 0 0 10px 1px var(--secundary-neutral);
+    }
+
+    .container-content h2 {
+        font-size: 18px;
+    }
+
+    .btn-started-big {
+        width: 240px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
     }
 }
