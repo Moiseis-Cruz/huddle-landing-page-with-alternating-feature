@@ -164,7 +164,7 @@ nav {
 footer {
     background-color: var(--secundary-neutral);
     color: var(--primary-neutral);
-    height: 540px;
+    min-height: 540px;
     color: var(--primary-neutral);
 }
 
