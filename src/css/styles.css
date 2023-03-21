@@ -142,7 +142,7 @@ nav {
     justify-content: center;
     border-radius: 15px;
     gap: 40px;
-    box-shadow: 0 0 10px 1px var(--secundary-neutral);
+    /* box-shadow: 0 0 10px 1px var(--tertiary-neutral); */
 }
 
 .container-content h2 {

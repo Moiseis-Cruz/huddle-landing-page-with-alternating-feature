@@ -60,7 +60,10 @@
         align-items: center;
         margin-top: 20px;
         text-align: center;
-        background-color: burlywood;
+    }
+
+    .container:first-child {
+        margin-top: 60px;
     }
 
     .container:nth-child(2){
@@ -92,12 +95,6 @@
     .container-content {
         width: 350px;
         height: 180px;
-        text-align: center;
-        bottom: -90px;
-        margin: 0 auto;
-        border-radius: 15px;
-        gap: 40px;
-        box-shadow: 0 0 10px 1px var(--secundary-neutral);
     }
 
     .container-content h2 {
