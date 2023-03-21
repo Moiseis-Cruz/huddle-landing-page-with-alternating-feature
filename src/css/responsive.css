@@ -3,10 +3,9 @@
         width: 375px;
     }
 
-    
-
     .container-hero-sec {
         background: hsl(193, 100%, 96%) url(../images/bg-hero-mobile.svg) no-repeat;
+        padding-bottom: 30px;
     }
 
     nav {
@@ -54,16 +53,18 @@
         width: 300px;
     }
 
-
-
     .container {
         width: 330px;
-        min-height: 460px;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
         text-align: center;
+        background-color: burlywood;
+    }
+
+    .container:nth-child(2){
+        flex-direction: column;
     }
     
     .container .content {
@@ -73,17 +74,19 @@
     .container .content h2 {
         width: 320px;
         font-size: 22px;
+        margin-top: 20px;
     }
 
     .container .content p {
         font-size: 14px;
-        margin: 1.125rem auto 0;
+        margin: 1.125rem auto 50px;
         width: 275px;
 
     }
     
     .container img {
         width: 320px;
+        padding: 40px;
     }
 
     .container-content {
@@ -109,6 +112,8 @@
     }
 
     footer {
+        margin: auto;
+        width: 375px;
         min-height: 920px;
     }
 
