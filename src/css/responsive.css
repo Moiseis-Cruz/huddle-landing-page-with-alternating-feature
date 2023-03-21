@@ -1,7 +1,6 @@
 @media (max-width: 375px) {
     body {
         width: 375px;
-        background-color: cadetblue;
     }
 
     .container-hero-sec {
@@ -28,7 +27,7 @@
     }
 
     .container-content-hero {
-        width: 375px;
+        width: 100%;
     }
 
     .title {
@@ -50,7 +49,7 @@
     }
 
     .illustration-mockups {
-        width: 375px;
+        width: 300px;
     }
 
 
@@ -65,9 +64,10 @@
         background-color: cornsilk;
         text-align: center;
     }
-
+    
     .container .content {
         width: 320px;
+        background-color: red;
     }
 
     .container .content h2 {
@@ -109,5 +109,39 @@
         height: 40px;
         line-height: 40px;
         font-size: 12px;
+    }
+
+    footer {
+        min-height: 920px;
+    }
+
+    footer .footer-image {
+        width: 170px;
+    }
+
+    .box:nth-child(2){
+        margin-top: 40px;
+    }
+
+    .box:last-child {
+        margin: 40px auto auto;
+    }
+
+    .container-footer {
+        width: 340px;
+        margin-top: 180px;
+    }
+
+    .content-footer {
+        margin-top: 30px;
+        display: grid;
+        gap: 0;
+        grid-template-columns: 320px;
+        grid-template-rows: 1fr;
+    }
+
+    footer .copy {
+        width: 100%;
+        text-align: center;
     }
 }
