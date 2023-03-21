@@ -3,6 +3,8 @@
         width: 375px;
     }
 
+    
+
     .container-hero-sec {
         background: hsl(193, 100%, 96%) url(../images/bg-hero-mobile.svg) no-repeat;
     }
@@ -61,17 +63,14 @@
         justify-content: center;
         align-items: center;
         margin-top: 20px;
-        background-color: cornsilk;
         text-align: center;
     }
     
     .container .content {
         width: 320px;
-        background-color: red;
     }
 
     .container .content h2 {
-        background-color: lightblue;
         width: 320px;
         font-size: 22px;
     }
@@ -80,13 +79,11 @@
         font-size: 14px;
         margin: 1.125rem auto 0;
         width: 275px;
-        background-color: burlywood;
 
     }
     
     .container img {
         width: 320px;
-        background-color: gray;
     }
 
     .container-content {
