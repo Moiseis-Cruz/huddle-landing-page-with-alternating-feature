@@ -217,6 +217,14 @@ footer .footer-description {
     border: 1px solid var(--primary-color);
 }
 
+.box ul li a:active {
+    text-decoration: underline;
+}
+
+.box:last-child ul li a:active {
+    text-decoration: none;
+}
+
 footer .extern {
     display: flex;
     justify-content: center;
