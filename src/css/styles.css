@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
 
+body {
+    background-color: blue;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--secundary-neutral);
+}
+
 main {
     max-width: 1440px;
     min-height: 100vh;
-    font-family: 'Open Sans', sans-serif;
     background-color: #f8f6f6;
-    color: var(--secundary-neutral);
     margin: auto;
 }
 
